@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="Stylesheet" href="./walmart.css" />
+  </head>
+  <body>
+    <div class="header">
+      <a href="https://www.walmart.com" target="_blank"
+        ><img style="height: 10%; width: 10%" src="./image/spark.png" alt=""
+      /></a>
+      <h6 style="color: orange">save money. live better</h6>
+    </div>
+    <br />
+    <div class="body">
+      <div class="billing-left">
+        <h4>Billing Address</h4>
+        <div class="left">
+          <label>First Name</label>
+          <br />
+          <input style="width: 100%" type="text" id="fname" />
+        </div>
+        <div class="right">
+          <label>Last Name</label>
+          <br />
+          <input style="width: 100%" type="text" id="lname" />
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="user">
+          <label>User Name</label>
+          <br />
+          <input style="width: 100%" type="text" id="uname" />
+        </div>
+        <br />
+        <div>
+          <label>Email (Optional)</label>
+          <br />
+          <input
+            style="width: 100%"
+            type="text"
+            id="email"
+            placeholder="you@example.com"
+          />
+        </div>
+        <br />
+        <div>
+          <label>Address</label>
+          <br />
+          <input
+            style="width: 100%"
+            type="text"
+            id="address"
+            placeholder="1234 Main St"
+          />
+        </div>
+        <br />
+        <div>
+          <label>Address 1</label>
+          <br />
+          <input
+            style="width: 100%"
+            type="text"
+            id="address1"
+            placeholder="Apartment or Suit"
+          />
+        </div>
+        <br />
+        
+        <div class="table">
+          <table>
+            <th class="normal" >Country</th>
+            <th class="normal" >State</th>
+            <th class="normal" >Zip</th>
+            <tr>
+              <td> <select name="country" id="">
+								<option value="US">US</option>
+								<option value="IND">IND</option>
+							</select> </td>
+              <td> <select name="state" id="">
+								<option value="AP">AP</option>
+								<option value="TG">TG</option>
+							</select> </td>
+              <td> <input type="number" name="" id=""> </td>
+            </tr>
+            <br />
+          </table>
+        </div>
+        <hr style="width: 100%; border-color: #08cf23" />
+        <div>
+          <input type="checkbox" id="" />
+          <label>Shipping address is the same as my billing address </label
+          ><br />
+          <input type="checkbox" id="" />
+          <label>Save this information for next time</label>
+        </div>
+        <br />
+
+        <hr style="width: 100%; border-color: #08cf23" />
+
+        <div>
+          <h3>Payment</h3>
+          <input type="radio" id="credit card" name="cc" checked />
+          <label>Credit Card</label><br />
+          <input type="radio" id="Debit card" name="cc" />
+          <label>Debit Card</label><br />
+          <input type="radio" id="Paypal" name="cc" />
+          <label>Paypal</label>
+        </div>
+        <br />
+        <br />
+        <div class="card left">
+          <label>Name on the Card</label><br />
+          <input type="text" id="" /><br />
+        </div>
+        <div class="card right">
+          <label>Credit Card Number</label><br />
+          <input type="number" id="" />
+        </div>
+        <br />
+        <br />
+        <div class="card left">
+          <label>Expiration Date</label><br />
+          <input
+            type="date"
+            id="edate"
+            value="30-11-2020"
+            min="01-01-2018"
+            max="31-12-2024"
+          />
+          <input
+            type="date"
+            id="expdate"
+            value="2020-11-30"
+            min="2018-01-01"
+            max="2024-12-31"
+          />
+        </div>
+        <div class="card right">
+          <label>CVV</label><br />
+          <input type="text" id="cvv" placeholder="..." />
+        </div>
+        <br />
+        <br />
+        <br />
+        <hr style="width: 100%; border-color: #08cf23" />
+        <br />
+        <div>
+          <button  class="button">Continue to Checkout</button>
+        </div>
+			</div>
+
+				<div class="cart-right">
+        <h4>Your Cart</h4>
+        <table >
+          <th>Product Name</th>
+          <th>Product Price</th>
+          <tr>
+            <td>Milk</td>
+            <td>$ 12.00</td>
+          </tr>
+          <tr>
+            <td>Tortilla</td>
+            <td>$8</td>
+          </tr>
+          <tr>
+            <td>Cheese</td>
+            <td>$ 5</td>
+          </tr>
+          <tr>
+            <td >Associate Discount</td>
+            <td style="color: red">-$ 5.00</td>
+          </tr>
+          <tr>
+            <td class="bold">Total</td>
+            <td style="color: green">$ 20.00</td>
+          </tr>
+				</table>
+      </div>
+    </div>
+  </body>
+</html>

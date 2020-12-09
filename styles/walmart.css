@@ -1,0 +1,71 @@
+body{
+    background-color:  #f6f6f6;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.billing-left {
+    width: 60%;
+    float: left;
+}
+
+th  {
+    text-align: left;
+}
+
+td {
+    padding: 5%;
+}
+
+.cart-right {
+    width: 30%;
+    float: right;
+}
+
+.header{
+    text-align: center;
+    color: #ffc220;
+    text-transform: uppercase;
+}
+
+.left{
+    float: left;
+    width: 40%;
+}
+
+.right{
+    float: right;
+    width: 40%;
+}
+
+.user{
+    width:"50%";
+
+}
+
+.card left{
+    float: left;
+    width: 40%;
+    padding-right: 20%
+}
+
+.card right{
+    float: right;
+    width: 40%;
+}
+
+.button{
+    background-color: blue;
+    margin-left: 40%;
+    color: white;
+    border-radius: 15px;
+    height: 55px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.normal {
+    font-weight: normal;
+}
